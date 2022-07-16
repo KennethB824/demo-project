@@ -33,7 +33,7 @@ public class StepDefs {
 
     @Then("^I should see the results$")
     public void i_should_see_the_results() throws Throwable {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("search"));
     }
 
